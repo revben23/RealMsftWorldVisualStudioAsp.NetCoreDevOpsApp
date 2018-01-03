@@ -1,0 +1,278 @@
+
+.clr {
+  clear:both;
+}
+    #main-header{
+   text-align: center;
+   background-color: rgb(33, 129, 177);
+   color: white;
+   
+  width: 100%;
+  }
+ .body {
+   width: 84%;
+   margin: auto;
+    background-color:rgb(219, 209, 205);
+    color: c555555;
+    font-family:  Arial, Helvetica, serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.6;
+    margin: 0;
+   
+  }
+
+
+#Main-Footer{
+
+    text-align: center;
+    font-size:18px;
+
+}
+.box-1 {
+  background: rgb(143, 100, 143);
+}
+.box-1 h2{
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  font-stretch: expanded;
+  text-decoration: dotted;
+  text-transform: capitalize;
+}
+.container { width: 84%;
+  margin: auto;
+  border:  5px pink solid;
+  padding-top: 0;
+  border-width: 12px;
+  border-style: outset;
+
+  padding: 20;
+  margin: 0, , 0, 0;
+}
+.box-2 {
+
+
+}
+.button {
+  padding:10px, 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+}
+
+.button:hover{
+  padding:10px, 15px;
+  background-color: rgb(165, 29, 29);
+  color: #fff;
+  border: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+
+}
+a:hover{
+  color: blueviolet;
+}
+a:active{
+  color: aqua;
+}
+/*a:visited{
+
+  color: yellow;
+
+}*/
+.container-1 {
+  width: 84%;
+  margin: auto;
+  border:  7px rgb(7, 68, 87) solid;
+  padding-top: 0;
+  border-width: 12px;
+  border-style: outset;
+
+}
+.block {
+
+  border:  1px rgb(160, 27, 187) solid;
+  padding: 10px;
+ 
+  border-style: outset;
+
+  float:left;
+  width: 33.3%;
+  box-sizing:border-box;
+
+}
+.dividor {
+margin: auto;
+width: 100%;
+
+
+}
+.form{
+
+}
+.categories{
+border: 1px rgb(92, 14, 92) solid;
+padding: 10px;
+border-radius: 15px;
+width: 35%;
+
+}
+.categories h3{
+  text-align: center;
+  padding: 0;
+}
+.categories ul{
+padding: 0;
+padding-left: 20px;
+list-style: none;
+}
+
+.categories li{
+border-bottom:dotted 1px rgb(134, 60, 60);
+padding-bottom: 6px;
+list-style-image: url( /Images/Visual-Studio-Logo-Visual-123859.png)
+}
+.table{
+
+}
+.form{
+  border: 4px, rgb(48, 65, 23), solid;
+  border-style: outset;
+  width: 50%;
+
+}
+.form .form-group{
+ padding: 5px;
+
+}
+.form label {
+  display: block;
+  padding: 5px;
+  width: 100%;
+
+}
+.form input[type="text"], .form textarea{
+  padding: 5px;
+  width: 97%;
+}
+.form input[type="date"]{
+  padding: 5px;
+  width: 34%;
+}
+.form input[type="email"]{
+  padding: 5px;
+  width: 97%;}
+
+  #main-block{
+      float: left;
+      width: 70%;
+      background-color: rgb(6, 1, 20);
+      color: rgb(160, 172, 140);
+      padding: 4.6px;
+      box-sizing: border-box;
+  }
+
+  #sidebar{
+    float: left;
+    width: 30%;
+    background-color: rgb(41, 43, 37);
+    color: #fff;
+    padding:15px;
+    box-sizing: border-box;
+
+
+}  
+.p-box {
+ min-width: 700px;
+  min-height: 500px;
+ 
+  color: rgb(12, 28, 43);
+  margin-top: 30px;
+  position: relative;
+  background-image: url(../Images/Abstract-Blue-Light-Vector-Background1.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  padding: 0;
+  margin: 0;
+ 
+
+}
+.p-box h1{
+  position:absolute;
+  top: 100px;
+  left: 200px;
+}
+.p-box h2{
+  position:absolute;
+  bottom: 40px;
+  right: 100px;
+}
+.fix-me{
+      position: fixed;
+      top: 400px;
+
+
+}
+.my-list li:first-child{
+    background: red;
+
+}
+.my-list li:last-child{
+  background: blue;
+  
+}
+.my-list li:nth-child(5){
+  background: rgb(125, 192, 16);
+  
+}
+.my-list li:nth-child(even){
+  background: rgb(184, 39, 111);
+  
+}
+.my-list li:nth-child(odd){
+  background: rgb(56, 8, 110);
+  
+}
+.navbar li{
+  display: inline;
+}
+@media(max-width:600px){
+  #main-block{
+    width:100%;
+    float:none;
+  }
+  #sidebar{
+    width:100%;
+    float:none;
+  }
+  .block{
+    width:100%;
+    float:none;
+  }
+}
+#showcase{
+  background-image: url(../Images/Abstract-Blue-Light-Vector-Background1.jpg);
+  min-height: 100px;
+
+  color: #fff;
+  text-align: center;
+
+}
+#navbar li{
+   display: inline;
+   
+}
+#navbar{
+  background-color: #333;
+  color: #fff;
+  text-align: end;
+  
+}
+.container-2{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
