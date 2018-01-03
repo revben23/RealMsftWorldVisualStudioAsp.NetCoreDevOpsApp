@@ -27,7 +27,7 @@ namespace RealMsftWorldVisualStudioAsp.NetCoreDevOpsApp
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello From Microsoft World");
+                await context.Response.WriteAsync("Hello  From Microsoft World");
             });
         }
     }
