@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <section id="forum-header"><header class="main-header"><h1>Forum</h1></header></section>
+    <section id="forum-header"><header class="main-header"><h1>Contact Us</h1></header></section>
     <div class="main-nav-bar">
         <nav>
             <ul>
@@ -13,13 +13,68 @@
                     <a href="index.html">Home</a>
                     <a href="Blog.html">Blog</a>
                     <a href="Forum.html">Forum</a>
-                    <a href="About.html">About Us</a>
-                    <a href="Contact.html">Contact Us</a>
+                    <a href="About.html">About </a>
+                    <a href="Contact.html">Contact</a>
                 </li>
 
             </ul>
         </nav>
     </div>
+      <div class="form">
+            <form action="process.php" method="POST">
+
+                <div class="form-group">
+                    <div>
+                        <label>First Name</label>
+                        <input type="text" name="firstName" placeholder="Enter First Name">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Last Name</label>
+                        <input type="text" name="lastName" placeholder="Enter Last Name">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Email Address</label>
+                        <input type="email" name="email" placeholder="Enter Email Address">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Your Message</label>
+                        <textarea name="message" placeholder="Enter Your Message"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Your Age</label>
+                        <input type="number" name="age" placeholder="Enter Your Age"><!--you can put in the value on the back-end-->
+                    </div>
+                    <br>
+                    <div>
+                        <label>Gender</label>
+                        <select name="gender" value"gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <br>
+
+
+                    <div>
+                        <label>Birthday:</label>
+                        <input type="date" name="birthday">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" class="button"
+                               name="submit" value="Submit">
+                    </div>
+                </div>
+                <br>
+            </form>
+        </div>
+
+    
     <footer class="main-footer">
 
         <section class="big-block">
