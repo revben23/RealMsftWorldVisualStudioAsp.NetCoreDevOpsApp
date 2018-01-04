@@ -1,13 +1,43 @@
 ﻿
-
-.main-header{
-    background-color:blueviolet;
-    text-align:center;
-    color: aliceblue;
-    margin:0;
-    padding:135px;
+a{
+    text-decoration:none;
+    text-emphasis:circle;
 }
-.main-nav-bar ul{
-    display: inline;
-    text-align: justify;
+a:hover{
+    color:crimson;
+}
+
+a:active{
+    color:darkgoldenrod;
+}
+
+.main-header {
+    background-color: blueviolet;
+    text-align: center;
+    color: aliceblue;
+    margin: 0,0,0,0;
+    padding: 135px;
+    overflow: hidden;
+    
+}
+.main-nav-bar {
+    width: 100%;
+    
+}
+    .main-nav-bar ul {
+        background-color: cadetblue;
+        padding: 30px;
+        margin-top: 0;
+        text-align: center;
+      
+    }
+    .main-nav-bar li {
+        display: inline;
+       
+     
+    }
+
+#forum-header {
+    background-image: url("../images/copresforum.jpg");
+    min-height: 100px;
 }
