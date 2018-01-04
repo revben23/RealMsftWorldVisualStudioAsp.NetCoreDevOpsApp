@@ -23,7 +23,7 @@ namespace RealMsftWorldVisualStudioAsp.NetCoreDevOpsApp
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
-
+            
 
         }   
     }
