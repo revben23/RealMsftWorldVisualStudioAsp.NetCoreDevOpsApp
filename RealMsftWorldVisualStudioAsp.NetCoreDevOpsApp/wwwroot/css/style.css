@@ -10,6 +10,23 @@ a:hover{
 a:active{
     color:darkgoldenrod;
 }
+@media(max-width:600px){
+
+    .block{
+        width: 100%;
+        float: none;
+    }
+    .block-2{
+        
+        width: 100%;
+        float: none;
+    }
+    .block-3{
+        
+        width: 100%;
+        float: none;
+    }
+}
 
 .main-header {
     background-color: blueviolet;
@@ -18,8 +35,8 @@ a:active{
     margin: 0,0,0,0;
     padding: 135px;
     overflow: hidden;
-    font-size:30px;
-    
+    font-size: 30px;
+  
 }
 .main-nav-bar {
     width: 100%;
@@ -41,9 +58,13 @@ a:active{
      
     }
 
-.forum-header{
-    background-image: url("../images/copresforum.jpg");
-    min-height: 100px;
+.forum{
+    background-image: url("../images/the-forum-logo.png");
+    overflow:hidden;
+    padding:135px;
+    text-align:center;
+    min-height: 135px;
+   
 }
 .block{
     float:left;
@@ -57,18 +78,16 @@ a:active{
 .block-2{
     float:left;
     width:70%;
-    border:outset;
-    box-sizing:border-box;
+    box-sizing: border-box;
     padding:10px;
 }
 .block-3 {
     float: right;
     width: 30%;
-    border: outset;
-    box-sizing: border-box;
-    border-color:brown;
+    box-sizing:border-box;
     padding:10px;
 }
-#main-footer{
+footer{
     margin-bottom:0;
+
 }
