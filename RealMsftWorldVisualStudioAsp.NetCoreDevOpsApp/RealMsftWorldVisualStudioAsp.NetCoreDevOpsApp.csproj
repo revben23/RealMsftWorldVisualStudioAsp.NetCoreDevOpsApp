@@ -23,7 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="wwwroot\ts\file.ts" />
     <TypeScriptCompile Include="wwwroot\ts\main.ts" />
   </ItemGroup>
 

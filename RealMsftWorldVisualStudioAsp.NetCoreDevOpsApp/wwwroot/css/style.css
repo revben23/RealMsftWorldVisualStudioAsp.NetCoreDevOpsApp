@@ -15,17 +15,7 @@ a:active{
     color:darkgoldenrod;
 }
 @media screen and (max-width:1890px) {
-
-
-   .test {
-        width: 100%;
-        float: none;
-
-   }
-    .block {
-        width: 100%;
-        float: none;
-    }
+     
     
 }
 
@@ -57,14 +47,21 @@ a:active{
 
 
 .block {
-        float: left;
+        float: right;
         width: 33.3%;
     }
-
- .big-block {
-        width: 70%;
-        text-align: center;
-    }
+.block1 {
+    float: right;
+    width: 33.3%;
+}
+.block2 {
+    float: right;
+    width: 33.3%;
+}
+.block3{
+    float:left;
+    width:100%;
+}
 
  .main-footer {
         background-color: yellowgreen;
@@ -132,7 +129,13 @@ a:active{
     }
 
     .form1 {
-        text-align: right;
+        text-align: left;
+        border:outset;
+        width:45%;
+        padding:10px;
+        border-color:deeppink;
+    
+        
     }
 
     .clr {
@@ -152,4 +155,56 @@ a:active{
     font-size: 30px;
     font-stretch: expanded;
     width:auto;
+}
+.homeblock{
+    float:left;
+    width:70%;
+}
+.homeblock1 {
+    float: left;
+    width: 30%;
+}
+@media(max-width: 600px) {
+    .homeblock {
+        float: none;
+        width: 100%;
+    }
+
+    .homeblock1 {
+        float: none;
+        width: 100%;
+    }
+
+    .block {
+        width: 100%;
+        float: none;
+    }
+
+    .block1 {
+        width: 100%;
+        float: none;
+    }
+
+    .block2 {
+        width: 100%;
+        float: none;
+    }
+    .block3 {
+        width: 100%;
+        float: none;
+    }
+    body{
+        width:auto;
+    }
+}
+.form1 label{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:purple;
+}
+.form1 input {
+    background-color:purple;
+    color:bisque;
+}
+.form1{
+    background-color:bisque;
 }
