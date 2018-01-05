@@ -29,7 +29,7 @@ a:active{
     
 }
 
-    .main-header {
+ .main-header {
         background-color: blueviolet;
         text-align: center;
         color: aliceblue;
@@ -98,6 +98,10 @@ a:active{
             padding: 5px;
             width: 97%;
         }
+.form input[type="submit"]{
+    background-color:green;
+    color:white;
+}
 
  .form input [tyepe="text"] {
             color: black;
@@ -140,3 +144,12 @@ a:active{
         float: left;
         width: 20%;
     }
+.main-nav {
+    background-color: cadetblue;
+    padding: 20px;
+    margin-top: 0;
+    text-align: right;
+    font-size: 30px;
+    font-stretch: expanded;
+    width:auto;
+}
