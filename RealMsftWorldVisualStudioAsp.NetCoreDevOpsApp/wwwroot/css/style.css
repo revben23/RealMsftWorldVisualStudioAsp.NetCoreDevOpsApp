@@ -126,3 +126,12 @@ footer{
 .form-forum{
     text-align:left;
 }
+.password label{
+    display:block;
+    text-align:right;
+}
+.username label{
+    display:block;
+    text-align:right;
+
+}
