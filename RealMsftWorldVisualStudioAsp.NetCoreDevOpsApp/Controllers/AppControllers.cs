@@ -9,7 +9,7 @@ namespace RealMsftWorldVisualStudioAsp.NetCoreDevOpsApp.Controllers
 {
     public class AppControllers : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index ()
         {
             return View();
         }
