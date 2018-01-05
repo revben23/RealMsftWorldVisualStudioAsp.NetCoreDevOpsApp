@@ -10,21 +10,11 @@ a:hover{
 a:active{
     color:darkgoldenrod;
 }
-@media(max-width:600px){
+@media screen and (max-width:50px){
 
-    .block{
+    .block {
         width: 100%;
-        float: none;
-    }
-    .block-2{
-        
-        width: 100%;
-        float: none;
-    }
-    .block-3{
-        
-        width: 100%;
-        float: none;
+        float: none
     }
 }
 
@@ -69,27 +59,20 @@ a:active{
 .block{
     float:left;
     width:33.3%;
+    
 }
 .big-block{
-    width:84%;
-    float:none;
-    text-align:center;
-}
-.block-2{
-    float:left;
     width:70%;
-    box-sizing: border-box;
-    padding:10px;
-}
-.block-3 {
-    float: right;
-    width: 30%;
-    box-sizing:border-box;
-    padding:10px;
+    text-align:center;
+    
 }
 footer{
-    margin-bottom:0;
+   
+    background-color:yellowgreen;
 
+    padding:50px;
+    overflow:hidden;
+    margin:0,0,0,0;
 }
 
 
@@ -98,6 +81,9 @@ footer{
     border: 4px, rgb(48, 65, 23), solid;
     border-style: outset;
     width: 50%;
+    overflow:hidden;
+    background-image:url(../images/Belgium-Black-Polished-2cm-Lot-3071-Close-up.jpg);
+    color:aliceblue;
 }
 
 .form .form-group {
@@ -113,7 +99,15 @@ footer{
 .form input[type="text"], .form textarea {
         padding: 5px;
         width: 97%;
+
+        
     }
+.form input [tyepe="text"]{
+    color:black;
+}
+.form textarea{
+    color:white;
+}
 
 .form input[type="date"] {
         padding: 5px;
@@ -138,4 +132,7 @@ footer{
 .form1{
     text-align:right;
     
+}
+.clr{
+    clear:both;
 }
