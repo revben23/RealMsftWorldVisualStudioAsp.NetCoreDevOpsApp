@@ -1,4 +1,8 @@
 ﻿
+.clr{
+    clear:both;
+}
+
 a{
     text-decoration:none;
     text-emphasis:circle;
@@ -10,129 +14,129 @@ a:hover{
 a:active{
     color:darkgoldenrod;
 }
-@media screen and (max-width:50px){
+@media screen and (max-width:1890px) {
 
+
+   .test {
+        width: 100%;
+        float: none;
+
+   }
     .block {
         width: 100%;
-        float: none
+        float: none;
     }
-}
-
-.main-header {
-    background-color: blueviolet;
-    text-align: center;
-    color: aliceblue;
-    margin: 0,0,0,0;
-    padding: 34px;
-    overflow: hidden;
-    font-size: 30px;
-  
-}
-.main-nav-bar {
-    width: 100%;
     
 }
-    .main-nav-bar ul {
-        background-color: cadetblue;
-        padding: 20px;
-        margin-top: 0;
-        text-align: right;
-        font-size:30px;
-        font-stretch:expanded;
-       
-      
-    }
-    .main-nav-bar li {
-        display: inline;
-       
-     
+
+    .main-header {
+        background-color: blueviolet;
+        text-align: center;
+        color: aliceblue;
+        margin: 0,0,0,0;
+        padding: 34px;
+        overflow: hidden;
+        font-size: 30px;
     }
 
-.forum{
-    background-image: url("../images/the-forum-logo.png");
-    overflow:hidden;
-    padding:135px;
-    text-align:center;
-    min-height: 135px;
-   
-}
-.block{
-    float:left;
-    width:33.3%;
-    
-}
-.big-block{
-    width:70%;
-    text-align:center;
-    
-}
-footer{
-   
-    background-color:yellowgreen;
+ .main-nav-bar {
+        width: 100%;
+    }
+.main-nav-bar ul {
+            background-color: cadetblue;
+            padding: 20px;
+            margin-top: 0;
+            text-align: right;
+            font-size: 30px;
+            font-stretch: expanded;
+        }
 
-    padding:50px;
-    overflow:hidden;
-    margin:0,0,0,0;
-}
+ .main-nav-bar li {
+            display: inline;
+        }
+
+
+.block {
+        float: left;
+        width: 33.3%;
+    }
+
+ .big-block {
+        width: 70%;
+        text-align: center;
+    }
+
+ .main-footer {
+        background-color: yellowgreen;
+        padding: 50px;
+        overflow: hidden;
+        margin: 0,0,0,0;
+    }
 
 
 
 .form {
-    border: 4px, rgb(48, 65, 23), solid;
-    border-style: outset;
-    width: 50%;
-    overflow:hidden;
-    background-image:url(../images/Belgium-Black-Polished-2cm-Lot-3071-Close-up.jpg);
-    color:aliceblue;
-}
+        border: 4px, rgb(48, 65, 23), solid;
+        border-style: outset;
+        width: 50%;
+        overflow: hidden;
+        background-image: url(../images/Belgium-Black-Polished-2cm-Lot-3071-Close-up.jpg);
+        color: aliceblue;
+    }
 
 .form .form-group {
-        padding: 5px;
-    }
+            padding: 5px;
+        }
 
-.form label {
-        display: block;
-        padding: 5px;
-        width: 100%;
-    }
+ .form label {
+            display: block;
+            padding: 5px;
+            width: 100%;
+        }
 
 .form input[type="text"], .form textarea {
-        padding: 5px;
-        width: 97%;
+            padding: 5px;
+            width: 97%;
+        }
 
-        
+ .form input [tyepe="text"] {
+            color: black;
+        }
+
+.form textarea {
+            color: white;
+        }
+
+ .form input[type="date"] {
+            padding: 5px;
+            width: 34%
+        }
+
+ .form-forum label {
+        display: block;
     }
-.form input [tyepe="text"]{
-    color:black;
-}
-.form textarea{
-    color:white;
-}
 
-.form input[type="date"] {
-        padding: 5px;
-        width: 34%
+    .form-forum {
+        text-align: left;
     }
-.form-forum label{
-    display:block;
-    
-}
-.form-forum{
-    text-align:left;
-}
-.password label{
-    display:block;
-   
-}
-.username label{
-    display:block;
-    
 
-}
-.form1{
-    text-align:right;
-    
-}
-.clr{
-    clear:both;
-}
+    .password label {
+        display: block;
+    }
+ .username label {
+        display: block;
+    }
+
+    .form1 {
+        text-align: right;
+    }
+
+    .clr {
+        clear: both;
+    }
+
+    .test{
+
+        float: left;
+        width: 20%;
+    }
