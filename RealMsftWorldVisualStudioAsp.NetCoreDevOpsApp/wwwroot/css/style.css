@@ -32,7 +32,7 @@ a:active{
  .main-nav-bar {
         width:auto; 
     }
-.main-nav-bar ul {
+.main-nav-bar ul  {
             background-color: cadetblue;
             padding: 20px;
             margin-top: 0;
@@ -44,7 +44,12 @@ a:active{
  .main-nav-bar li {
             display: inline;
         }
-
+ .main-nav-bar ::after{
+     content:" |";
+ }
+ .main-nav-bar :last-of-type::after{
+     content:"";
+ }
 
 .block {
         float: right;
