@@ -58,14 +58,17 @@ a:active{
 .block1 {
     float: right;
     width: 33.3%;
+    margin:auto;
 }
 .block2 {
     float: right;
     width: 33.3%;
+    margin:auto;
 }
 .block3{
     float:left;
     width:100%;
+    margin:auto;
 }
 
  .main-footer {
@@ -105,7 +108,7 @@ a:active{
     color:white;
 }
 
- .form input [tyepe="text"] {
+ .form input [type="text"] {
             color: black;
         }
 
@@ -201,6 +204,10 @@ a:active{
     body{
         width:auto;
     }
+    .forumBlock{
+        float:right;
+        width:100%;
+    }
 }
 .form1 label{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -219,7 +226,11 @@ a:active{
     }
 }
 body{
-    align-content:center;
+    margin:auto;
     width:auto;
     
+}
+.forumBlock{
+    float:left;
+    width:30%;
 }
